@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #031540;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    left: 100px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: blue;
+
+}
+
+.home {
+    height: 100vh;
+    background: linear-gradient(-90deg, #031540 65%, white 35%);
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    position: relative;
+    max-width: 1000px;
+    color: white;
+    text-align: left;
+    margin-left: 575px;
+    top: 25px;
+
+
+}
+
+.home-content h1 {
+    font-size: 55px;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 40px;
+    color: white;
+
+}
+
+.home-content p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.home-content img {
+    height: 200px;
+    width: 350px;
+    margin: 10px;
+}
+.home-image {
+    position: relative;
+}
+.img2 {
+    position: absolute;
+    height: 300px;
+    width: 550px;
+    bottom: 10px;
+
+
+
+}
+
+.img4 {
+    position: absolute;
+    height: 180px;
+    width: 280px;
+    left: 1000px;
+    top: 120px;
+}
+
+.img5 {
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    left: 70px;
+    top: 200px;
+}

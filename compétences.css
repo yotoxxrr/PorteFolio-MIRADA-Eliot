@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #031540;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    left: 100px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: blue;
+
+}
+
+.home {
+    height: 100vh;
+    background: linear-gradient(-90deg, #031540 65%, white 35%);
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    position: relative;
+    max-width: 1000px;
+    color: white;
+    text-align: left;
+    margin-left: 570px;
+    top: 18px;
+
+}
+
+.home-content h1 {
+    font-size: 55px;
+    line-height: 1.2;
+    
+}
+
+.home-content h3 {
+    font-size: 28px;
+    color: white;
+    margin: 10px;
+
+}
+
+.home-content img {
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    left: 15px;
+}
+
+.img3 {
+    position: absolute;
+    left: 5px;
+}
+
+
+.home-image {
+    position: relative;
+}
+
+.img4 {
+    position: absolute;
+    height: 180px;
+    width: 220px;
+    left: 400px;
+    bottom: 575px;
+
+}
+
+.img5 {
+    position: absolute;
+    height: 180px;
+    width: 220px;
+    left: 170px;
+    bottom: 575px;
+
+}
+
+.img6 {
+    position: absolute;
+    height: 180px;
+    width: 220px;
+    left: 50px;
+    bottom: 300px;
+   
+
+}
+
+.img7 {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    left: 200px;
+    bottom: 250px;
+    
+
+}
+
+.img8 {
+    position: absolute;
+    height: 180px;
+    width: 220px;
+    bottom: 40px;
+    left: 50px;
+
+
+    
+
+}
+
+.img9 {
+    position: absolute;
+    height: 280px;
+    width: 500px; 
+    left: 200px;
+    bottom: 1px;
+}
+
+.img10 {
+    position: absolute;
+    height: 200px;
+    width: 180px;
+    bottom: 520px;
+    left: 600px;
+}
+
+.img11 {
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    bottom: 280px;
+    left: 600px;
+}
+
+.img12 {
+    position: absolute;
+    height: 200px;
+    width: 180px;
+    bottom: 30px;
+    left: 600px;
+}
